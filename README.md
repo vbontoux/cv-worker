@@ -2,5 +2,5 @@
 Just started ...
 The idea is to create a parent worker service that spawn child workers to execute opencv tasks like image matching, OCR ...
 * Tasks are added into a RabbitMQ queue and consumed by available child workers.
-* A task is typically a json object that describes the details of the CV operation:command to perform, parameters (like algo, thresholds...)
+* A task is typically a json object that describes the details of the CV operation to perform, parameters (like algo, thresholds...)
 and Images (stored locally or given as remote urls)
